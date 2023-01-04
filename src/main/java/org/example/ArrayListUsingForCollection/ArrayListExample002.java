@@ -1,6 +1,7 @@
 package org.example.ArrayListUsingForCollection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.ListIterator;
 
 public class ArrayListExample002 {
@@ -20,5 +21,9 @@ public class ArrayListExample002 {
         for (int i=0;i<list.size();i++){
             System.out.println(list.get(i));
         }
+        System.out.println("Traversing list through foreach loop");
+        list.forEach(a->{
+            System.out.println(a);
+        });
     }
 }
