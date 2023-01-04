@@ -1,7 +1,9 @@
 package org.example.ArrayListUsingForCollection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
 public class ArrayListExample {
     public static void main(String[] args) {
@@ -17,9 +19,14 @@ public class ArrayListExample {
             String str= (String) iterator.next();
             System.out.println(str);
         }
+        //use set and get
+        System.out.println(list.get(2));
+        list.set(1,"Jacky");
         //use for each loop
         for (String name:list){
             System.out.println(name);
         }
+
+
     }
 }
