@@ -19,5 +19,10 @@ public class LinkedList002 {
         System.out.println(linkedList);
         linkedList.addFirst("Rakhi");
         System.out.println(linkedList);
+        linkedList.removeLast();
+        System.out.println(linkedList);
+        linkedList.removeFirstOccurrence("Rakhi");
+        System.out.println(linkedList);
+        linkedList.removeLastOccurrence("Mali");
     }
 }
