@@ -27,6 +27,15 @@ public class ArrayListExample {
             System.out.println(name);
         }
 
-
+        System.out.println("Sorting number");
+        List<Integer> list1=new ArrayList<>();
+        list1.add(21);
+        list1.add(32);
+        list1.add(52);
+        list1.add(1);
+        Collections.sort(list1);
+        for (Integer integer:list1){
+            System.out.println(integer);
+        }
     }
 }
