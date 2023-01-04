@@ -10,9 +10,14 @@ public class TreeSetEx001 {
         tl.add("Shiva");
         tl.add("Mac");
         tl.add("Ajay");
-        Iterator iterator=tl.descendingIterator();
+        Iterator<String>iterator=tl.iterator();
         while (iterator.hasNext()){
-            System.out.println(iterator.next());
+            String str=iterator.next();
+            System.out.println(str);
+        }
+        Iterator iterator2=tl.descendingIterator();
+        while (iterator2.hasNext()){
+            System.out.println(iterator2.next());
         }
 
     }
