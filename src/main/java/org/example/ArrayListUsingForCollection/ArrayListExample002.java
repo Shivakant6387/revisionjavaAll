@@ -25,5 +25,9 @@ public class ArrayListExample002 {
         list.forEach(a->{
             System.out.println(a);
         });
+        System.out.println("Traversing list through for each Remaining() method");
+        Iterator<String >iterator=list.iterator();
+        iterator.forEachRemaining(a-> System.out.println(a));
+
     }
 }
