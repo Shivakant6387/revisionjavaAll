@@ -15,6 +15,9 @@ public class LinkedList002 {
         linkedList.add(1,"Anjeli");
 
         System.out.println(linkedList);
-
+        linkedList.addLast("Ritu");
+        System.out.println(linkedList);
+        linkedList.addFirst("Rakhi");
+        System.out.println(linkedList);
     }
 }
