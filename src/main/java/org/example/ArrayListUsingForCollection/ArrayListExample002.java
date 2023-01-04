@@ -16,5 +16,9 @@ public class ArrayListExample002 {
             String str=listIterator.previous();
             System.out.println(str);
         }
+        System.out.println("Traversing list through for loop");
+        for (int i=0;i<list.size();i++){
+            System.out.println(list.get(i));
+        }
     }
 }
