@@ -24,5 +24,7 @@ public class LinkedList002 {
         linkedList.removeFirstOccurrence("Rakhi");
         System.out.println(linkedList);
         linkedList.removeLastOccurrence("Mali");
+        linkedList.clear();
+        System.out.println(linkedList);
     }
 }
